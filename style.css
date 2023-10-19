@@ -8,6 +8,15 @@
 body {
   background-color: #080710;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(billabong.ttf);
+}
+
+#loginText {
+  font-family: myFirstFont;
+  font-size: 61px;
+}
 
 .background {
   width: 430px;
@@ -114,4 +123,3 @@ button {
 .social i {
   margin-right: 4px;
 }
-z
